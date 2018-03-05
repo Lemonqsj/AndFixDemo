@@ -21,7 +21,7 @@ AndFix热修复使用Demo简单快捷
      点击上面的链接下载apkpatch之后解压；
 
 5. 然后将打包好的out.patch放到SD卡中；
-6.混淆注意事项：
+6. 混淆注意事项：
     -keep class * extends java.lang.annotation.Annotation
     -keepclasseswithmembernames class * { native <methods>; }
     -keep class com.alipay.euler.andfix.** { *; }
